@@ -15,9 +15,9 @@ $msg;
    
 </head>
 <body>
-      <div class="container">
+      <div class="container justify-content-center">
           <h4 class="text-danger text-center m-5"><?php echo $msg ?></h4>
+          <button class="btn btn-primary btn-block mt-2"><a href="index.php" class="text-white">Back</a></button>
       </div>
-      <button><a href="index.php">Back</a></button>
 </body>
 </html>

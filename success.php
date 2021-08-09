@@ -15,9 +15,9 @@ $Id;
 </head>
 <body>
     <div class="container m-5">
-        <h4 class="text-success">successfully Updated !</h4>
+        <h4 class="text-success text-center">successfully Updated !</h4>
         <br><br>
-        <button><a href="user_profile.php?msg=<?php echo $Id ?>">User Profile</a></button>
+        <button class="btn btn-primary btn-block mt-2"><a class="text-white href="user_profile.php?msg=<?php echo $Id ?>>User Profile</a></button>
     </div>
 </body>
 </html>
